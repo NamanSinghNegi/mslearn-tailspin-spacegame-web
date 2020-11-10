@@ -26,6 +26,7 @@ namespace TailSpin.SpaceGame.Web.Controllers
         }
 
         public async Task<IActionResult> Index(
+            
             int page = 1, 
             int pageSize = 10, 
             string mode = "",
